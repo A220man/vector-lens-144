@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "current_feature": "fix-react-components-skill-name",
+  "features": [
+    {
+      "id": "fix-react-components-skill-name",
+      "title": "Fix colon in skill name (Issue #39)",
+      "status": "done",
+      "acceptance": [
+        "Skill directory skills/react-components/ exists with SKILL.md",
+        "SKILL.md name field uses hyphen: name: react-components",
+        "Skill loads without validation errors"
+      ],
+      "implementation": [
+        "skills/react-components/SKILL.md created with proper name"
+      ],
+      "tests": [
+        "tests/skill_name_test.py"
+      ]
+    }
+  ]
+}
