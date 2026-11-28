@@ -11,6 +11,23 @@
       ],
       "implementation": [],
       "tests": []
+    },
+    {
+      "id": "add-design-inspector-skill",
+      "title": "Add design-inspector skill to Agent Skills library",
+      "status": "in_progress",
+      "acceptance": [
+        "skills/design-inspector/SKILL.md exists with proper name field",
+        "Skill name uses hyphen not colon",
+        "Targeted test validates skill name format"
+      ],
+      "implementation": [
+        "skills/design-inspector/SKILL.md created with name: design-inspector",
+        "tests/design_inspector_test.py created and passing"
+      ],
+      "tests": [
+        "tests/design_inspector_test.py"
+      ]
     }
   ]
 }
